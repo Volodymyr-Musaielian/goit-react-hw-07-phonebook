@@ -1,0 +1,14 @@
+.list {
+  width: 280px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+}
