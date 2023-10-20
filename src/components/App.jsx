@@ -5,7 +5,7 @@ import { Filter } from './Filter/Filter';
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Section title="Phonebook">
         <ContactForm />
       </Section>
@@ -13,6 +13,6 @@ export const App = () => {
         <Filter />
         <ContactList />
       </Section>
-    </div>
+    </>
   );
 };
